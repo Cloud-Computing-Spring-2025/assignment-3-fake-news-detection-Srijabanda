@@ -13,6 +13,15 @@ This project implements a complete Spark-based pipeline to detect fake news arti
 
 ## ✅ Task Breakdown
 
+| Task | Description |
+|------|-------------|
+| Task 1 | Load dataset, show schema, run basic SQL queries |
+| Task 2 | Tokenize and clean text using Spark NLP tools |
+| Task 3 | Extract TF-IDF features, index labels, assemble feature vectors |
+| Task 4 | Train logistic regression model, generate predictions |
+| Task 5 | Evaluate model using Accuracy and F1 Score |
+
+
 ### 🧪 Task 1: Load & Basic Exploration
 - Load the dataset using Spark with schema inference.
 - Create a temporary view `news_data`.
